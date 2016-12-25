@@ -30,4 +30,4 @@ const mapDisoatchToProps = (dispatch) => {
 const VisibleTodoList = connect(
     mapStateToProps,
     mapDisoatchToProps
-)(TOdoList);
+)(TodoList);
