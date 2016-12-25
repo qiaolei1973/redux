@@ -1,0 +1,28 @@
+{
+  "name": "redux",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start":"node server.js",
+    "test": "cross-env NODE_ENV=test mocha --recursive --compliers js:babel-register --require ./test/setup.js",
+    "test:watch":"cnpm test -- --watch"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/qiaolei1973/redux.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/qiaolei1973/redux/issues"
+  },
+  "homepage": "https://github.com/qiaolei1973/redux#readme",
+  "dependencies": {
+    "babel-polyfill":"^6.3.14",
+    "react":"^0.14.7",
+    "react-dom":"^0.14.7",
+    "react-redux":"^4.1.2",
+    "redux":"^3.1.2"
+  }
+}
